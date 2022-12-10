@@ -1,0 +1,42 @@
+nav,
+footer {
+  background-color: #00111b;
+}
+.imgbg {
+  background-image: url(../img/jumbotron/sdifotbar.jpg);
+  background-color: #7b787f;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gallery {
+  background-color: #002135;
+}
+.jumbotron {
+  padding-top: 4.5rem;
+}
+.about .container,
+.gallery .container,
+.contact .container {
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
+}
+.about,
+.contact {
+  background-color: #3a86b3;
+}
+.contact .container .card,
+.about .container .card,
+.about .container .card table {
+  padding: 1rem;
+  color: aliceblue;
+  background-color: #002135;
+}
+.svg {
+  margin-top: -5%;
+}
+@media only screen and (max-width: 600px) {
+  .imgbg {
+    background-image: url(../img/jumbotron/sdifotbar1.jpg);
+  }
+}
