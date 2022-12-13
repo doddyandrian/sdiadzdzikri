@@ -35,8 +35,11 @@ footer {
 .svg {
   margin-top: -5%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .imgbg {
     background-image: url(../img/jumbotron/sdifotbar1.jpg);
+  }
+  .jumbotron .container img {
+    width: 25%;
   }
 }
